@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300|Spicy+Rice');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+		font-family: 'Poppins', sans-serif;
+}
+
+
+.loginform-section{
+	background-image: url(../images/tree.jpg);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.login{
+    position: absolute;
+    background: blueviolet;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 45px 23px;
+    box-shadow: 0 0 50px blue;
+    width: 35%;
+}
+
+.login h1{
+	font-size: 33px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 875;
+}
+.login p{
+	text-align: center;
+}
+.login p a{
+	color: #147347;
+}
+
+.login form{
+
+}
+.login form input{
+	width: 100%;
+	border:1px solid !#black;
+	padding: 10px 10px;
+	margin-bottom: 12px;
+	font-size: 12;
+}
+.login form ul{
+	overflow: hidden;
+	margin: 10px 0;
+	padding: 0;
+}
+.login form ul li{
+	float: left;
+	width: 50%;
+	list-style: none;
+
+}
+.login form ul li input{
+	width: auto;
+}
+.login form ul li input span{}
+.login form ul li  p {text-align: right;}
+.login form ul li  a{
+	color: #8c94f9;
+	display: block;
+	text-align: right;
+
+}
+
+.login-btn{
+	background: #8c94f9;
+	color:white;
+	text-transform: uppercase;
+	font-weight: 595;
+	font-size: 17px !important;
+}
+
